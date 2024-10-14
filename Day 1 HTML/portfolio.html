@@ -62,15 +62,18 @@
         <form action="submit.html" method="post">
             <label for="name">Name:</label>
             <br>
-            <input type="text" id="name" name="name">
+            <input type="text" id="name" name="name" required>
             <br><br>
             <label for="email">Email:</label>
             <br>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" required>
             <br><br>
             <label for="message">Message:</label>
             <br>
             <textarea id="message" name="message" placeholder="Write you want to write..."></textarea>
+            <br>
+            <!-- here new edit -->
+             <button type="submit">Submit</button>
         </form>
     </section>
     <footer>
