@@ -39,7 +39,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    transform: scale(1.3); /* تكبير بنسبة 20% */
+    transform: scale(1.3);
     color: blueviolet;
 }
 
@@ -64,7 +64,7 @@ section{
 }
 
 #projects a:hover{
-    transform: scale(1.3); /* تكبير بنسبة 20% */
+    transform: scale(1.3);
     color: Red;
 }
 #skills h2{
@@ -100,15 +100,6 @@ hr{
     border: solid #333;
 }
 
-form {
-    max-width: 600px;
-    margin: auto;
-}
-
-label {
-    display: flex;
-    width: 100px; 
-}
 
 form input,
 textarea{
