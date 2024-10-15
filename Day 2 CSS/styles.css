@@ -100,6 +100,14 @@ hr{
     border: solid #333;
 }
 
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+label{
+    display: flex;
+}
 
 form input,
 textarea{
