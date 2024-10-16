@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <button id="toggle-mode">Toggle Dark Mode</button>
+    
+    <section id="about-me">
+        <button id="aboutme-btn"><h2>About Me</h2></button>
+        <p id="aboutme-text">My name's John Samy, I'm a Software Engineer at ALX</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><h3>CatPhotoAPP</h3></li>
+            <p>CatPhotoApp is an app just with HTML5 contains basics of HTML5</p>
+            <a href="https://github.com/JohnSamy2004/Projects/tree/main/Programming/freecodecamp/Responsive%20Web%20Design/CatPhotoApp/CatPhotoApp">View Project</a>
+
+            <li><h3>A Cafe Menu</h3></li>
+            <p>This is a menu made with HTML5 and CSS</p>
+            <a href="https://github.com/JohnSamy2004/Projects/tree/main/Programming/freecodecamp/Responsive%20Web%20Design/CatPhotoApp/A%20Cafe%20Menu">View Project</a>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <table border="1">
+            <tr>
+                <th>Skill</th>
+                <th>Experience Level</th>
+            </tr>
+            <tr>
+                <td>HTML5</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Beginner</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit.html" method="post">
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" name="message" placeholder="Write what you want to write..."></textarea>
+            <br>
+            <button type="submit">Submit Message</button>
+        </form>
+    </section>
+
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345095987!2d144.9537353153175!3d-37.81720997975173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f5c9c93%3A0x5045675218ce6d4!2sRMIT%20University!5e0!3m2!1sen!2sau!4v1614625795696!5m2!1sen!2sau" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
+
+    <footer>
+        <p>&copy; 2024 John Samy</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
