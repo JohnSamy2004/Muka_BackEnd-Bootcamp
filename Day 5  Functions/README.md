@@ -30,7 +30,7 @@
 
 ---
 
-### 2. Write one example of each type of function and log the results.
+### one example of each type of function with log the results.
 
 ```javascript
 // Function Declaration Example
