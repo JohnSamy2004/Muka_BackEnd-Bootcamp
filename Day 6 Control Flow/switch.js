@@ -22,7 +22,12 @@ const day_of_week = day => {
             console.log('Friday');
             break;
         default:
-            console.log("invalid day")
+            console.log("this is more than week");
+
+            if (day > 7) {
+                day_of_week(day - 7);
+            }
+
             break;
     };
 }
